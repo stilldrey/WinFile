@@ -1,9 +1,9 @@
 # WinFile
-Create a file that creates a file Windows can't delete.  added HELP and guidance on usage in this v2 version
+Create a file that creates a file Windows can't delete.  added HELP and guidance on usage in this v2 version.  arguments are case sensitive (HELP, CREATE, LAUNCH, etc.)
 # Syntax
 # Demofile.bat CREATE
 Creates a file called lpt1.exe in a demo directory off of C:
-# demofile.bat LAUNCH
+# Demofile.bat LAUNCH
 Tries to launch the file - will display an error and then will execute LPT1.EXE as a command prompt
 # Demofile.bat DELETE
 Delete the file created in previous step
