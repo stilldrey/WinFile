@@ -1,9 +1,11 @@
 # WinFile
-Create a file that creates a file Windows can't delete
+Create a file that creates a file Windows can't delete.  added HELP and guidance on usage in this v2 version
 # Syntax
-Demo.bat create
+Demofile.bat CREATE
 Creates a file called lpt1.exe in a demo directory off of C:
-demo.bat launch
+demofile.bat LAUNCH
 Tries to launch the file - will display an error and then will execute LPT1.EXE as a command prompt
-Demo.bat del
+Demofile.bat DELETE
 Delete the file created in previous step
+Demofile.bat VIRUS
+Creates a file with the EICAR file signature as LPT1.EXE.  Windows Defender will quantine the file.
