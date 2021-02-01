@@ -1,4 +1,8 @@
 # WinFile
+Windows has reserved certain namespaces that were once reserved for hardware on your computer. Even though many of these do not exist on modern computers, the names are still invalid for filenames or directories. There is an old capability to bypass these namespaces and create files with these names. Why? Because this has never been an issue. 
+# How it works
+First create a file that you can't delete, rename or copy even with Administrator privileges. Creating a file with the EICAR test file signature as an EXE alerts Windows Defender to a test malicious file and it will delete it and records the way it was created, so even if any unknown exploit used this method Windows Defender ATP (Advanced Threat Protection) watchs for this type of new behavior and can quarantine and warn of potential malicious code, scripts, and executables.
+# Version 2 of the script
 Create a file that creates a file Windows can't delete.  added HELP and guidance on usage in this v2 version.  arguments are case sensitive (HELP, CREATE, LAUNCH, etc.)
 # Syntax
 # Demofile.bat CREATE
